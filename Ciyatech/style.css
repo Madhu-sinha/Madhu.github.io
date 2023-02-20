@@ -58,9 +58,18 @@ a {
     color: #fff;
 } */
 
+
 .single-service:hover {
     background: tomato;
     /* background: url('../img/slide_image-5.png'); */
+}
+
+.list-styled{
+    font-size: 12px;
+}
+
+.page-footer{
+    font-size: 12px;
 }
 
 

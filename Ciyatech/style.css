@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2? family=poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.container-fluid{
+    
+    background-image: linear-gradient(to right, #dde2e3, #86b6c6, #3a7eb2, #007acc, #0055ff);
+
+}
+.navbar-brand{
+
+    position: fixed;
+    left: 50px;
+    top: 5px;
+
+}
+
+#home {
+    background-image: linear-gradient(to right, #dde2e3, #86b6c6, #3a7eb2, #007acc, #0055ff);
+}
+
+
+.col-12 h5 {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+
+}
+
+
+.col-12 p {
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 1.9;
+} 
+
+.col-12 p a{
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9;
+}
+.card_1-text{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+@media only screen and (max-width: 767px) {
+    .col-12 h5{
+        font-size: 40px;
+
+    }    
+    
+    .carousel-caption a{
+      padding: 10px 15px;
+  }
+  .col-12 p{
+      width: 100%;
+      line-height: 1.6;
+      font-size: 12px;
+  }
+
+  .h2{
+    font-size: 25px;
+}
+
+.single-service{
+   margin-bottom: 20px;
+   padding: 40px;
+}
+
+.single-service:hover{
+   font-size: 100px;
+}
+      
+  }  
+
+    
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+     .carousel-caption{
+        bottom: 370px;
+     }
+     .col-12 p{
+        width: 100%;
+     }
+}
+
+
+
+  
+    
+
+.single-service {
+    /* background: #212121; */
+    background: rgba(0, 0, 255, 0.608);
+    padding: 60px;
+    height: 400px;
+    transition: all 0.9s ease 0s;
+    text-align: center;
+}
+
+/* .single-service i {
+    color: tomato;
+    font-size: 80px;
+    padding-bottom: 20px;
+} */
+
+.single-service h3 {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}  
+
+.single-service h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.single-service p {
+    display: none;
+    transition: all 0.9s ease 0s;
+    color: #fff;
+    font-weight: 700;
+}
+
+.single-service:hover p {
+    display: block;
+}
+
+/* .single-service:hover i {
+    font-size: 120px;
+    transition: 0.9s;
+    color: #fff;
+} */
+
+.single-service:hover {
+    background: tomato;
+    /* background: url('../img/slide_image-5.png'); */
+}
+.list-styled{
+    font-size: 12px;
+}
+
+.page-footer{
+    font-size: 12px;
+}
+
+
+
+
+

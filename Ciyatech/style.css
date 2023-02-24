@@ -12,9 +12,18 @@ a {
     text-decoration: none;
 }
 
-/* #carouselExampleCaptions {
-    background-color: blue;
-} */
+.container-fluid{
+    
+    background-image: linear-gradient(to right, #dde2e3, #86b6c6, #3a7eb2, #007acc, #0055ff);
+
+}
+.navbar-brand{
+
+    position: fixed;
+    left: 50px;
+    top: 5px;
+
+}
 
 #home {
     background-image: linear-gradient(to right, #dde2e3, #86b6c6, #3a7eb2, #007acc, #0055ff);

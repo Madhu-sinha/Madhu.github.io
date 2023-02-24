@@ -68,6 +68,11 @@ a {
       line-height: 1.6;
       font-size: 12px;
   }
+    
+    .card_1-text{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
 
   .h2{
     font-size: 25px;
